@@ -3,7 +3,7 @@ import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
 import { Button } from '@/components/ui/button';
-import { Building, Lightning, ArrowUp, ArrowDown } from 'lucide-react';
+import { Building, Zap, ArrowUp, ArrowDown } from 'lucide-react';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
 
 interface EnergyMetric {
@@ -39,7 +39,7 @@ const EnergyDashboard = () => {
       trend: 'up',
       trendValue: '+12.8%',
       progress: 85,
-      icon: <Lightning className="h-6 w-6" />,
+      icon: <Zap className="h-6 w-6" />,
       description: 'Total clean energy produced this quarter'
     },
     {
